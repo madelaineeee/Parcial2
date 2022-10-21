@@ -5,15 +5,22 @@
 }
 
 body {
-    color: white;
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .fondo {
-    background: url(https://i.pinimg.com/originals/f6/59/9c/f6599c1dd8ddbfb2cb10f2d16da3bd8c.jpg);
+    background: url(https://img.freepik.com/free-vector/three-smiling-confectionery-cooks-uniform-making-cakes-with-showcase-background-flat-illustration_1284-65002.jpg?w=1380&t=st=1666386287~exp=1666386887~hmac=a59e773ce9a42f42add55cd3ba62543f3610ed1504279012144751111876efe4);
+    /*background: url(https://img.freepik.com/free-photo/baking-concept-with-ingredients-dark_1220-7099.jpg?w=1060&t=st=1666388827~exp=1666389427~hmac=def168d4a16160b1291108c05a6f675920051c2adf837387ec1980ff37ff2949);
+    */
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+
+.margen {
+    margin: 0 50px 0 50px;
 }
 
 #menu {
@@ -31,6 +38,7 @@ body {
 
 .contenido1 {
     text-align: center;
+    padding-top: 5em;
     font-weight: normal;
 }
 
@@ -42,6 +50,11 @@ article {
 article img {
     width: 150px;
     height: 150px;
+}
+
+#lineas {
+    border-left: solid grey;
+    border-right: solid grey;
 }
 
 .formulario{
