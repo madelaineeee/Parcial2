@@ -31,6 +31,7 @@ body {
 
 .contenido1 {
     text-align: center;
+    font-weight: normal;
 }
 
 article {
@@ -41,4 +42,41 @@ article {
 article img {
     width: 150px;
     height: 150px;
+}
+
+.formulario{
+    background-color: rgb(147, 160, 239);
+    padding: 2rem;
+}
+
+.formulario  .form-header{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+    padding-bottom: 1rem;
+}
+
+.formulario label {
+    color: black;
+    margin: 20px;
+
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 100px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#nuestras-promociones{
+    margin: auto;
+    color: black;
+    justify-content: space-between;
+   
 }
