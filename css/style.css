@@ -10,9 +10,7 @@ body {
 }
 
 .fondo {
-    background: url(https://img.freepik.com/free-vector/three-smiling-confectionery-cooks-uniform-making-cakes-with-showcase-background-flat-illustration_1284-65002.jpg?w=1380&t=st=1666386287~exp=1666386887~hmac=a59e773ce9a42f42add55cd3ba62543f3610ed1504279012144751111876efe4);
-    /*background: url(https://img.freepik.com/free-photo/baking-concept-with-ingredients-dark_1220-7099.jpg?w=1060&t=st=1666388827~exp=1666389427~hmac=def168d4a16160b1291108c05a6f675920051c2adf837387ec1980ff37ff2949);
-    */
+    background: url(https://img.freepik.com/free-vector/neutral-soft-abstract-watercolor-background_53876-115579.jpg?w=1060&t=st=1666391647~exp=1666392247~hmac=bf826aaa4388540bb1836122a8e59b77a01afa5b4b8c3ca691cf8a29526d237f);
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,11 +27,23 @@ body {
     align-items: flex-end;
 }
 
-#menu a {
+.margen p {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-top: 15px;
+}
+
+#menu a{
     font-size: 20px;
     color: black;
     text-decoration: none;
     margin: 20px;
+}
+
+hr {
+    border: 1px solid grey;
 }
 
 .contenido1 {
@@ -60,6 +70,7 @@ article img {
 .formulario{
     background-color: rgb(147, 160, 239);
     padding: 2rem;
+    height: 600px;
 }
 
 .formulario  .form-header{
@@ -91,5 +102,7 @@ form{
     margin: auto;
     color: black;
     justify-content: space-between;
+    height: 600px;
    
 }
+
